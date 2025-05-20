@@ -1,0 +1,139 @@
+/*--------BODY-HTML AND ALL------*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body{
+	height: 100%;
+	min-height: 100vh;
+}
+/*--------BODY-HTML AND ALL END HERE------*/
+
+
+/*---------BOOTSTYLES----------*/
+body{
+
+	background: url("../pictures/background.webp");
+	background-size: cover;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+}
+section, .buttons, .titles{
+	position: relative;
+	z-index: 2;
+}
+img{
+	height: 150px;
+}
+.banner{
+	padding-top:50px ;
+}
+.w33{
+	width: 33.3%;
+}
+
+.overlay{
+	z-index: 1;
+	pointer-events: none;
+	position: fixed;
+	background: rgba(0, 0, 0, 0.7	);
+	backdrop-filter: blur(50px);
+	height: 100%;
+	width: 100%;
+}
+/*--------BOOTSTYLES END HERE------*/
+
+
+/*--------STYLES------*/
+.logo{
+	display: flex;
+	justify-content: center;
+}
+.titles h1{
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+}
+.titles h2{
+	color: rgba(255, 255, 255, 0.6);
+	text-align: center;
+	font-size: 20px;
+}
+.buttom-title{
+	margin-top: 50px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+.buttons{
+	display: flex;
+	background: rgba(0, 0, 0, 0.5);
+	height: auto;
+	width: 600px;
+	color: white;
+    margin: 15px 10px 1px 10px;
+}
+.buttom-title h1{
+	font-size: 20px;
+}
+.img-button{
+	height: 60px;
+	margin: 5px;
+}
+.link{
+	display: flex;
+	width: 100%;
+	color: white;
+	align-items: center;
+	white-space: nowrap;
+	text-decoration: none;
+}
+.link span{
+	font-size: 20px;
+	word-break: break-word;
+}
+.zap{
+	font-size: 50px;
+	margin: 5px;
+}
+.position{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.mini-icons-section{
+	display: flex;
+	justify-content:center	;
+}
+.conteiner-mis{
+	display: flex;
+	justify-content: center	;
+	padding: 10px;
+}
+.mini-icone{
+	font-size: 	35px;
+	color: 	white;
+	margin:10px 20px 0px 20px;
+}
+
+/*--------STYLES END HERE------*/
+
+
+/*--------MEDIA QUERIES------*/
+
+@media screen and (max-width: 600px){
+	.buttons{
+		width: 100%;	
+	}
+	.feed{
+	display: inline-block;
+	color: white;
+	white-space: normal;
+	text-align: center;
+	text-decoration: none;
+	}
+}
+/*--------END MEDIA QUERIES HERE------*/
